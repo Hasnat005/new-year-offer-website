@@ -132,3 +132,94 @@
     height: 500px;
     background-image: url("../images/NewYearPhoto.png");
 }
+
+/* midnight_party section starts header */
+
+.midnight_party {
+    width: 1320px;
+    height: 600px;
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.midnight_party > .left_part {
+    margin-left: 128px;
+}
+
+.left_part > h1 {
+    width: 642px;
+    height: 176px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.left_part > p {
+    width: 697px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.left_part > h4 {
+    width: 103px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+
+.midnight_party > .right_part {
+    width: 349.16px;
+    height: 464.65px;
+    /* margit-right:108.67px; */
+    background-image: url("../images/2024_img.png");
+}
+
+/* details starts head */
+
+.details {
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details > p {
+    width: 549px;
+    height: 168px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn {
+    width: 167px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    
+}
